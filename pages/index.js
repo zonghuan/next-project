@@ -1,5 +1,6 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default (props)=>(
-  <div>index</div>
+  <div><Link href="/hello"><a>goto hello</a></Link></div>
 )
